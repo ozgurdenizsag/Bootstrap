@@ -1,0 +1,427 @@
+<html>
+    <head>
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
+        <title>Bootstrap</title>
+    </head>
+    <body>
+        <div class="container" style="margin-top:5%;">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <hr>
+
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                Un autre <a href="" class="alert-link">essai</a>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <button type="button" class="btn btn-primary">
+                  Notifications <span class="badge badge-light">4</span>
+                </button>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <button type="button" class="btn btn-primary">
+                  Profile <span class="badge badge-light">9</span>
+                  <span class="sr-only">unread messages</span>
+                </button>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                  </ol>
+                </nav>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <span class="badge badge-primary">Primary</span>
+                <span class="badge badge-secondary">Secondary</span>
+                <span class="badge badge-success">Success</span>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <button type="button" class="badge badge-primary">Primary</button>
+                <button type="button" class="btn btn-secondary" disabled>Secondary</button>
+                <button type="button" class="btn btn-success btn-block mt-1">Success</button>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <button type="button" class="btn btn-outline-secondary btn-lg">Secondary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-success btn-sm">Success</button>
+            </div>
+            <hr>
+
+            <div class="btn-group mt-2" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-info">Left</button>
+              <button type="button" class="btn btn-danger">Middle</button>
+              <button type="button" class="btn btn-primary">Right</button>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="option1" checked> Radio
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2"> Radio
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option3"> Radio
+                  </label>
+                </div>
+            </div>
+            <hr>
+
+            <div class="mt-2">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-info active">
+                    <input type="checkbox" name="options" id="option1" checked> Checkbox
+                  </label>
+                  <label class="btn btn-info">
+                    <input type="checkbox" name="options" id="option2"> Checkbox
+                  </label>
+                  <label class="btn btn-info">
+                    <input type="checkbox" name="options" id="option3"> Checkbox
+                  </label>
+                </div>
+            </div>
+            <hr>
+
+            <div class="btn-toolbar mt-2" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group mr-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-secondary">1</button>
+                <button type="button" class="btn btn-secondary">2</button>
+                <button type="button" class="btn btn-secondary">3</button>
+                <button type="button" class="btn btn-secondary">4</button>
+              </div>
+              <div class="btn-group mr-2" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-secondary">5</button>
+                <button type="button" class="btn btn-secondary">6</button>
+                <button type="button" class="btn btn-secondary">7</button>
+              </div>
+              <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-secondary">8</button>
+              </div>
+            </div>
+            <hr>
+
+            <div class="btn-toolbar justify-content-center" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" id="btnGroupAddon2">@</div>
+                </div>
+                <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+              </div>
+            </div>
+            <hr>
+
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-danger">1</button>
+              <button type="button" class="btn btn-warning">2</button>
+
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">Connexion</a>
+                  <a class="dropdown-item" href="#">Inscription</a>
+                    <div class="dropdown-divider alert alert-danger"></div>
+                  <div class="btn-group d-flex" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-primary">1</button>
+                    <button type="button" class="btn btn-danger">2</button>
+                    <button type="button" class="btn btn-info">3</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+
+            <div class="card" style="width: 18rem;">
+              <img src="ExempleRequ%C3%AAtesSQL.png" class="card-img-top" style="width: 100px;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <hr>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-danger">Header</div>
+              <div class="card-body text-success">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer bg-transparent border-primary">Footer</div>
+            </div>
+            <hr>
+
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item  h-50 active" data-interval="2000">
+                  <img src="aze.jpg" class="d-block w-100 rounded-pill" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </div>
+                <div class="carousel-item h-50" data-interval="2000">
+                  <img src="autumn.jfif" class="d-block w-100 rounded-pill" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="carousel-item h-50" data-interval="2000">
+                  <img src="sky.jpg" class="d-block w-100 rounded-pill" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+                <div class="carousel-item  h-50" data-interval="2000">
+                  <img src="moon.jpg" class="d-block w-100 rounded-pill" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <hr>
+
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse"
+                 href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+              <button class="btn btn-primary" type="button"
+                      data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+              <button class="btn btn-primary" type="button"
+                      data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger"
+                      data-toggle="collapse" data-target="#multiCollapseExample3" >Action</button>
+              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item disabled alert-primary" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div>
+            <hr>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+              </div>
+            </div>
+            <hr>
+
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Cras justo odio
+                <span class="badge badge-primary badge-pill">14</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Dapibus ac facilisis in
+                <span class="badge badge-primary badge-pill">2</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Morbi leo risus
+                <span class="badge badge-primary badge-pill">1</span>
+              </li>
+            </ul>
+            <hr>
+
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action active">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Donec id elit non mi porta.</small>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small class="text-muted">Donec id elit non mi porta.</small>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small class="text-muted">Donec id elit non mi porta.</small>
+              </a>
+            </div>
+            <hr>
+
+            <div class="row">
+              <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Aaaa</div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Bbbb</div>
+                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Cccc</div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Dddd</div>
+                </div>
+              </div>
+            </div>
+            <hr>
+
+            <img src="aze.jpg" alt="..." class="rounded-circle ">
+            <img src="autumn.jfif" alt="..." class="rounded-pill">
+            <hr>
+
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+            <hr>
+
+            <h1 class="" style="background-image: url('aze.jpg');">Bootstrap</h1>
+            <div class="bd-example">
+              <h1 class="text-hide" style="background-image: url('aze.jpg'); width: 50px; height: 50px;">Bootstrap</h1>
+            </div>
+            <hr>
+
+            <div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3 bg-light"
+                style="max-width: 260px; max-height: 100px;">Donec id elit non mi porta gravida at eget metus.
+                Maecenas sed diam eget risus varius blandit.</div>
+            <hr>
+
+            <img src="ExempleRequ%C3%AAtesSQL.png" class="img-fluid" style="height: 50%;" alt="Responsive image">
+            <hr>
+
+            <picture>
+              <source srcset="" type="image/svg+xml">
+              <img src="autumn.jfif" class="img-fluid img-thumbnail" alt="...">
+            </picture>
+            <hr>
+
+            <figure class="figure">
+              <img src="aze.jpg" class="figure-img img-fluid rounded" style="height: 25%;"  alt="...">
+              <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+            </figure>
+            <hr>
+
+            <i class="far fa-arrow-alt-circle-left"></i>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+            <hr class="alert alert-primary">
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

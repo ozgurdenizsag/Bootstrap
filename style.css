@@ -1,0 +1,19 @@
+html,body,header,.view{
+  height: 100%;
+  font-family: 'josefin sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.top-nav-collapse{
+  background-color: indigo;
+  background: linear-gradient(to right top, indigo, #fff);
+  transition-property: all;
+  transition-duration: .5s; /* on aurait pu écrire 500ms également */
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+
+.view{
+  background: url(1.jpeg) no-repeat center;
+  background-size: cover;
+}
